@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "terraform-central-backend"
-    key    = "state_files"
-    region = "us-east-2"
+    key    = "backend_state_file"
+    region = "us-east-1"
   }
 }
