@@ -3,7 +3,7 @@ variable "AWS_REGION" {
 }
 
 variable "BUCKET_NAME" {
-  default = "random-12-21-random"
+  default = "www-formative-minds-com"
 }
 
 variable "DOMAIN_NAME" {
