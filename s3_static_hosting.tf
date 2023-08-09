@@ -13,7 +13,7 @@ resource "aws_s3_bucket_website_configuration" "s3_bucket_config" {
 }
 
 resource "aws_s3_bucket_public_access_block" "mybucket" {
-  bucket = aws_s3_bucket.s3_bucket.id
-  block_public_acls       = true
-  block_public_policy     = true
+  bucket              = aws_s3_bucket.s3_bucket.id
+  block_public_acls   = true
+  block_public_policy = true
 }
